@@ -1,0 +1,12 @@
+Vagrantfile
+*swp
+*~
+.travis.yml
+.vagrant
+.git
+.gitignore
+circle.yml
+cloudformation.json
+Dockerfile
+
+node_modules

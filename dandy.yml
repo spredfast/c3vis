@@ -1,0 +1,17 @@
+flavor: node
+name: c3vis
+tunnel: 19448
+service: serverService
+
+dandy:
+  circle: false
+
+#optional
+#container_name: force a different container name than spredfast/<appname>
+#console: command to run for REPL, if default isn't right for you
+#service: if you're using a service named something other than 'serverTask', you need to set this
+#logs: an array of log files to tail for 'dandy tail'
+#instance_count: number of instances you want this to run
+#cpu: number of cores to dedicate to your application. supports floating points (eg, 0.5)
+#memory: megabytes of memory to dedicate to your application.
+#app_host_port: let Swain or theath set this
